@@ -1,13 +1,12 @@
-@prefix ex: <http:example.com/id/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> . 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix capo: <http://example.capgemini.com/ontology#> .
 @prefix capr: <http://example.capgemini.com/resource#> .
 
 capr:AmirWesthoff
   rdf:type foaf:Person ;
-  foaf:givenname "Amir" ;
-  foaf:family_name "Westhoff" ;
+  foaf:givenname "Amir" ; 
+  foaf:family_name "Westhoff" ; # See http://xmlns.com/foaf/spec/ for more FOAF attributes and relations.
   capo:unit "I&D" ;
   capo:role "Architect" ;
   foaf:knows capr:HansVanRijs ;
